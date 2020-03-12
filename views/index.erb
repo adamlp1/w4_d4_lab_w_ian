@@ -1,0 +1,9 @@
+<h1>Welcome to Hogwarts.</h1>
+
+<% @students.each do |student| %>
+  <p>Name: <%= student.full_name() %></p>
+  <p>Age: <%= student.age() %></p>
+  <p>House: <%= student.house() %></p>
+  <hr>
+
+<% end %>
